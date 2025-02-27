@@ -2,11 +2,11 @@
 
 ![GenI-Banner](https://github.com/genilab-fau/genial-fau.github.io/blob/8f1a2d3523f879e1082918c7bba19553cb6e7212/images/geni-lab-banner.png?raw=true)
 
-Project Summary
+# Project Summary (Devara_Bot as Study Comapanion)
 
 This research explores the effectiveness of various prompt engineering techniques—such as Zero-Shot, Few-Shot, Chain-of-Thought, Meta-Prompting, Retrieval-Augmented Generation (RAG), Prompt Chaining, Self-Consistency, and Knowledge Generation—in improving the accuracy, completeness, and efficiency of software requirement extraction using Large Language Models (LLMs). We analyze how different prompting strategies impact requirement structuring and explore optimizations to enhance AI-driven requirement analysis.
 
-Authors: [Sai Nikhith Atmakuri,Siva Satya Sai Ram Toleti, Venkata Ganesh Padavala ]
+Authors: [Sai Nikhith Atmakuri,Siva Satya Sai Ram Toleti, Venkata Ganesh Padavala (https://github.com/SairamGitSmash/Devara_Prompt_Eng.git).]
 Academic Supervisor: [Dr. Fernando Koch](http://www.fernandokoch.me)
 
 ---
@@ -19,22 +19,22 @@ This research investigates whether structured prompting methods can generate hig
 
 ---
 
-Arguments
+## Arguments
 
-What is already known about this topic
+#### What is already known about this topic
 
 Traditional software requirement gathering relies on manual effort, which is time-consuming and prone to misinterpretation.
 LLMs have been explored for requirement analysis, but prompt design significantly affects the quality of the extracted information.
 Different prompt engineering techniques exist**, including Zero-Shot, Few-Shot, Chain-of-Thought, Meta-Prompting, Self-Consistency, RAG, Prompt Chaining, and Knowledge Generation, each with strengths and weaknesses.
 Challenges include hallucination, inconsistency in responses, and the need for domain-specific fine-tuning.
 
-What this research is exploring
+#### What this research is exploring
 
 We experiment with various prompting strategies to assess their effectiveness in structured requirement extraction.
 We are building a benchmarking framework to compare prompt performance using accuracy, completeness, and response consistency as evaluation metrics.
 We are exploring how model parameters like temperature, token limits, and instruction format impact requirement generation.
 
-Implications for practice
+#### Implications for practice
 
 Automating software requirement documentation** to reduce manual workload.
 Improving accuracy and completeness** of AI-generated requirements, minimizing ambiguities in software development.
@@ -42,9 +42,9 @@ Optimizing LLM response efficiency** to balance quality and processing time.
 
 ---
 
-Research Method
+# Research Method
 
-1. Experimental Setup
+#### 1. Experimental Setup
 
 Datasets: Using real-world software requirement documents and generating synthetic test cases.
 Prompt Engineering Techniques:
@@ -57,23 +57,23 @@ Prompt Engineering Techniques:
   Prompt Chaining: Using intermediate steps to structure multi-step requirement extraction workflows.
   Knowledge Generation: Enabling LLMs to iteratively build structured requirement knowledge through multi-turn reasoning.
 
-2. Metrics for Evaluation
+#### 2. Metrics for Evaluation
 
 Accuracy: How well the generated requirements align with predefined correct requirements.
 Completeness: Whether all critical aspects of a software requirement are covered.
 Consistency: Measuring variation in responses for the same prompt over multiple trials.
 Efficiency: Response time and computational resource usage.
 
-3. Implementation Approach
+#### 3. Implementation Approach
 
 Jupyter Notebooks in the `prompt-eng` repository will document all experiments.
 Comparing model outputs across various LLM configurations (temperature, token length, and prompt format variations).
 Logging results in structured tables and visualizing differences using charts and graphs.
 
 
-Results
+# Results
 
-Key Findings from Experiments
+### Key Findings from Experiments
 
 | Technique             | Accuracy   | Completeness | Consistency | Efficiency |
 |----------------------|-----------|-------------|-------------|------------|
@@ -86,7 +86,7 @@ Key Findings from Experiments
 | **Prompt Chaining** | High      | Very High   | High        | Medium     |
 | **Knowledge Generation** | Very High | Very High | High | Medium |
 
-Observations
+### Observations
 
 Zero-Shot Prompting is efficient but struggles with completeness.
 Few-Shot Prompting improves contextual accuracy but requires curated examples.
@@ -98,11 +98,9 @@ Knowledge Generation builds a more refined and detailed requirement set over ite
 
 ---
 
-Future Research Directions
+# Future Research Directions
 Automated prompt optimization using AI-based prompt tuning strategies.
 Hybrid models combining multiple prompting techniques to achieve the best trade-off between accuracy and efficiency.
 Domain-specific adaptations for requirement extraction in finance, healthcare, and IoT systems.
 Integration with Retrieval-Augmented Generation (RAG) for knowledge-enhanced requirement analysis.
 Comparative analysis with human-written requirements to validate real-world usability.
-
-
