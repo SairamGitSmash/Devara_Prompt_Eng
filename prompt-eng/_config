@@ -1,0 +1,11 @@
+# this is file: prompt-eng/config
+# Point to the target Ollama or Open-WebUI Server
+# !!! YOU NEED TO ADJUST THE URL TO YOUR SERVER !!!
+# !!! IF USING OPEN-WEBUI, PROVIDE TEH API_KEY !!!
+
+# This is an example for _config when Ollama is running on the same computer
+URL_GENERATE=http://localhost:11434/api/generate
+
+#URL_GENERATE=https://chat.hpc.fau.edu/api/chat/completions
+API_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjQxNzZhODJjLTBmZDctNGFjOC04OGU3LTQzM2E2ODY1YmEwZCJ9.2FTOI2pm0pM47CfssCV5LHnE0ZPbWg00v1SA5pOa-Fg
+

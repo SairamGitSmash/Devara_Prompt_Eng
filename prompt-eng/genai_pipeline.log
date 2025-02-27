@@ -1,0 +1,7 @@
+2025-02-25 21:47:46,581 - INFO - Response received in 29.726s: Stemming and Lemmatization are two techniques used to reduce words to their base form, also known as root word or stem. This process is called stemming.
+
+Here's an example:
+
+Original sentence: "The quick brown fox jumps over the lazy dog.""
+
+This is a well-known pangram, a phrase that uses all the letters of the alphabet at least once.
